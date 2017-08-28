@@ -1,8 +1,11 @@
 
-<div align='left' style="height:60px;overflow:hidden;">
+<div style="height:60px;overflow:hidden;">
 <a href='http://www.ismar.cnr.it/index_html-1?set_language=en&cl=en'>
 <img align='left' style='display: block;height: 92%' src='http://www.ismar.cnr.it/logo-en.jpg' alt='UFF logo' title='UFF logo'/>
 </a>
+<br/>
+<br/>
+<br/>
 
 # SOS server explorer
 A Notebook to explore and visualize the data stored in a SOS Server (Version 2.0.0).
