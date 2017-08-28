@@ -19,7 +19,7 @@ Author: Stefano Menegon, (http://www.ismar.cnr.it)
 SOS_URL = 'http://vesk.ve.ismar.cnr.it/observations/sos/kvp'
 SOS_VERSION = '2.0.0'
 DATE_START = '2017-01-01'
-DATE_END = '2017-01-3'
+DATE_END = '2017-01-10'
 ```
 
 ## Load libraries
@@ -36,7 +36,7 @@ import requests
 from xml.etree import ElementTree
 
 from pylab import rcParams
-rcParams['figure.figsize'] = 8, 5
+rcParams['figure.figsize'] = 13, 5
 
 import numpy
 import matplotlib.dates, matplotlib.pyplot
@@ -341,36 +341,6 @@ for observed_property in observed_properties:
 
 
 ![png](sos_server_explorer_files/sos_server_explorer_13_35.png)
-
-
-    
-    
-    http://vocab.nerc.ac.uk/collection/P01/current/UWDRAD01/
-    Unidirectivity index of waves on the water body by acoustic doppler wave array and computation using protocol of Barstow et al. (1991)
-
-
-
-![png](sos_server_explorer_files/sos_server_explorer_13_37.png)
-
-
-    
-    
-    http://vocab.nerc.ac.uk/collection/P02/current/CAPH/
-    Air pressure
-
-
-
-![png](sos_server_explorer_files/sos_server_explorer_13_39.png)
-
-
-    
-    
-    http://vocab.nerc.ac.uk/collection/P02/current/TEMP/
-    Temperature of the water column
-
-
-
-![png](sos_server_explorer_files/sos_server_explorer_13_41.png)
 
 
 
